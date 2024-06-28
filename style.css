@@ -1,3 +1,4 @@
+@import url("styles/header.css");
 :root {
     --cor-de-fundo: #EBECEE;
 }
@@ -10,7 +11,18 @@ body {
 : white;}
 <body>
     <header class="cabeçalho">
-        <span class="cabeçalho__menu-hamburguer"></span>
+        <span class="cabeçalho__menu-hamburguer.cabeçalho__menu-hamburguer {
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background-image: url("../img/Menu.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        "></span>
         <img src="img/Logo.svg" alt="Logo da AluraBooks">
+        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
+        <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
+        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
     </header>
 </body>
